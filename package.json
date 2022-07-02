@@ -1,19 +1,23 @@
 {
-  "name": "@formkit/auto-animate",
+  "name": "@telemantra-healthcare/auto-animate",
   "version": "1.0.0-beta.1",
   "description": "Add motion to your apps with a single line of code.",
-  "private": true,
   "keywords": [
     "animation",
     "transition",
     "react",
     "vue"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:telemantra-healthcare/auto-animate.git",
+    "directory": "@telemantra-healthcare/auto-animate"
+  },
   "type": "module",
   "main": "index.mjs",
   "module": "index.mjs",
   "types": "index.d.ts",
-  "repository": "https://github.com/formkit/auto-animate.git",
+  "repository": "https://github.com/telemantra-healthcare/auto-animate",
   "author": "Justin Schroeder <justin@formkit.com>",
   "license": "MIT",
   "scripts": {
@@ -63,7 +67,7 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "react": "^16.8.0",
+    "react": "^18.0.0",
     "vue": "^3.0.0"
   },
   "peerDependenciesMeta": {
